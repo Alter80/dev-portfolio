@@ -6,7 +6,10 @@ body{
 h1{
     font-size: 50px;
 }
-section{
+h2{
+    font-size: 28px;
+}
+.flexible-container{
     display: flex;
     margin-bottom: 80px;
 }
@@ -17,7 +20,7 @@ section{
 }
 .half-width{
     width: 50%;
-    padding: 10%;
+    padding: 5%;
 }
 .half-width img{
     width: 100%;
@@ -60,4 +63,37 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+/* Experience part */
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.exp-item{
+    width: 40%;
+    padding: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 10px gray;
+    border-radius: 5px;
+}
+
+#web-dev-exp1{
+    border-left: 7px solid;
+    border-image: linear-gradient(red,orange, cyan);
+    border-image-slice: 1; 
+}
+
+#web-dev-exp2{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan, yellow);
+    border-image-slice: 1; 
+}
+
+/* footer */
+footer{
+    text-align: center;
 }
